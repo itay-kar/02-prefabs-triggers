@@ -1,4 +1,4 @@
-# Sapceship game
+# Sapceship game.
 
 Changes Made in this game -  
 
