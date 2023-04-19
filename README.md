@@ -7,7 +7,7 @@ Changes Made in this game:
 
 ## Link to game page on itch.io
 
-https://itay-kar.itch.io/spaceship-game
+<https://itay-kar.itch.io/spaceship-game>
 
 ### About the Game
 
