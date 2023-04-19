@@ -6,5 +6,6 @@ Changes Made in this game -
 
 * New undestroyable enemy spaceships.
 
+## link to game page on itch.io - https://itay-kar.itch.io/spaceship-game
 
 ### This spaceship game is a game developed by our lecturers in ariel to teach unity prefabs and basics. 
