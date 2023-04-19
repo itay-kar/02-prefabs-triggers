@@ -1,0 +1,34 @@
+{
+    "name": "Restart_Game",
+    "maps": [
+        {
+            "name": "Scene_Control",
+            "id": "c5fc2149-0a2d-4832-ad6e-c29e7b1fdf51",
+            "actions": [
+                {
+                    "name": "Restart",
+                    "type": "Button",
+                    "id": "075a5a4d-6b50-461c-8f80-87b5ae10e407",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ac06eed7-53b3-4811-a963-fdd7e7177732",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Restart",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
