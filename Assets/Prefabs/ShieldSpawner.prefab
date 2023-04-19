@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &8392271928695271262
+--- !u!1 &7302727044198992578
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,37 +8,37 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8392271928695271261}
-  - component: {fileID: 8392271928695271266}
+  - component: {fileID: 7302727044198992576}
+  - component: {fileID: 7302727044198992577}
   m_Layer: 0
-  m_Name: EnemySpawner
+  m_Name: ShieldSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &8392271928695271261
+--- !u!4 &7302727044198992576
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8392271928695271262}
+  m_GameObject: {fileID: 7302727044198992578}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.25, y: 6.15, z: 0}
+  m_LocalPosition: {x: -2.9104984, y: 2.367835, z: 0.055046644}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8392271928695271266
+--- !u!114 &7302727044198992577
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8392271928695271262}
+  m_GameObject: {fileID: 7302727044198992578}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4ab63d9ef6fc24b4792a19faafaad16c, type: 3}
@@ -49,4 +49,5 @@ MonoBehaviour:
   velocityOfSpawnedObject: {x: 0, y: -2, z: 0}
   minTimeBetweenSpawns: 1
   maxTimeBetweenSpawns: 3
-  maxXDistance: 0.5
+  maxXDistance: 15
+  maxYDistance: 3

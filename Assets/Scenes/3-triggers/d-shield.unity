@@ -658,7 +658,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 086f5bbcb4e8a0542aed0cf2ceddb974, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  duration: 5
+  duration: 10
 --- !u!58 &1261435268
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -1399,6 +1399,7 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!212 &212522841112678493
 SpriteRenderer:
   m_ObjectHideFlags: 0
